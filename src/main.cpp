@@ -4,13 +4,14 @@
 // put function declarations here:
 int myFunction(int, int);
 
+Blink blink(2);
+
 void setup() {
   // put your setup code here, to run once:
+  blink.begin();
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-  int pin = 2;
-  Blink blink(pin);
-  blink.begin();
+  blink.now();
 }
