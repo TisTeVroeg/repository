@@ -4,9 +4,13 @@
 class Blink {
 public:
     Blink(int pin);
+    void begin(void);
     void now(void);
+
+private:
     int _pin;
-    int _timeBetweenOnOfMilllis = 1000;
+    int _timeBetweenOnOffMillis = 1000;
+    bool _isOn = false;
 };
 
 #endif
