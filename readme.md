@@ -1,2 +1,4 @@
-#Lekker
-![alt text](image.png)
+Schakelstudenten brugge elektronica-ict
+
+Ibe Packo
+Robin Dujardyn
